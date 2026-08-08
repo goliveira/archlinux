@@ -45,6 +45,7 @@ Encrypted communication
 
 Password managers
 - [pass](pass.md)
+- [keepassxc](keepassxc.md)
 
 Version control system
 - [git](git.md)
