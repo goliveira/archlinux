@@ -53,3 +53,6 @@ File synchronization
 
 Version control system
 - [git](git.md)
+
+Web server
+- [lighttpd](lighttpd.md)
