@@ -38,6 +38,9 @@
 
 ## Essential applications
 
+Install fonts
+- [fonts](fonts.md)
+
 Encrypted communication
 - [ssh](ssh.md)
 - [ssh-agent](ssh-agent.md)
