@@ -31,7 +31,9 @@
 27. [Network](27-network.md)
 28. [Graphical](28-graphical.md)
 29. [Browser](29-browser.md)
-30. [File_manager](30-file_manager.md)
+30. [File manager](30-file_manager.md)
 31. [Viewers](31-viewers.md)
-32. [Text_editor](32-text_editor)
+32. [Text editor](32-text_editor)
 33. [Congratulations](33-congrats.md)
+
+## Essential applications
