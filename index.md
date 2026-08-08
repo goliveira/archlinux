@@ -37,3 +37,6 @@
 33. [Congratulations](33-congrats.md)
 
 ## Essential applications
+
+- [ssh](ssh.md)
+- [ssh-agent](ssh-agent.md)
