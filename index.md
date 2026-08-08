@@ -40,3 +40,4 @@
 
 - [ssh](ssh.md)
 - [ssh-agent](ssh-agent.md)
+- [gnupg](gnupg.md)
