@@ -62,6 +62,9 @@ Web server
 
 ## More applications
 
+Text editor
+- [vim](vim.md)
+
 Typesetting system
 - [LaTeX](latex.md)
 
