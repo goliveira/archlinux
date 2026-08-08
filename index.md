@@ -58,3 +58,6 @@ Web server
 - [lighttpd](lighttpd.md)
 
 ## More applications
+
+Note taking
+- [obsidian](obsidian.md)
