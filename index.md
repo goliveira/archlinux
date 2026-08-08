@@ -49,3 +49,6 @@ Password managers
 
 Version control system
 - [git](git.md)
+
+File synchronization
+- [syncthing](syncthing.md)
