@@ -38,6 +38,10 @@
 
 ## Essential applications
 
+Encrypted communication
 - [ssh](ssh.md)
 - [ssh-agent](ssh-agent.md)
 - [gnupg](gnupg.md)
+
+Password managers
+- [pass](pass.md)
