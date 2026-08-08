@@ -62,5 +62,8 @@ Web server
 
 ## More applications
 
+Typesetting system
+- [LaTeX](latex.md)
+
 Note taking
 - [obsidian](obsidian.md)
