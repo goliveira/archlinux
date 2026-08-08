@@ -47,8 +47,9 @@ Password managers
 - [pass](pass.md)
 - [keepassxc](keepassxc.md)
 
-Version control system
-- [git](git.md)
-
 File synchronization
 - [syncthing](syncthing.md)
+- [rsync](rsync.md)
+
+Version control system
+- [git](git.md)
