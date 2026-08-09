@@ -58,6 +58,12 @@ Install KDE screenshot capture utility:
 sudo pacman -S spectacle
 ```
 
+Install kscreen for multi monitor support:
+
+```bash
+sudo pacman -S kscreen
+```
+
 Enter the number 30 to select the english language (or choose another language):
 
 ```
