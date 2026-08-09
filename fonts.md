@@ -18,14 +18,6 @@ sudo pacman -S --needed \
 	ttf-noto-nerd
 ```
 
-Fonts for [waybar](waybar.md):
-
-```bash
-sudo pacman -S --needed \
-	ttf-noto-nerd \
-	otf-font-awesome
-```
-
 Fonts for [libreoffice](libreoffice.md):
 
 ```bash
