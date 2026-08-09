@@ -13,10 +13,22 @@ Install
 sudo pacman -S --needed texlive-latexrecommended
 ```
 
-(Optional) For auxiliary programs (for example, `pdfjam`) install
+(Optional) For auxiliary programs (for example, `pdfjam`), install
 
 ```bash
 sudo pacman -S --needed texlive-binextra
+```
+
+(Optional) For portuguese language support, install
+
+```bash
+sudo pacman -S --needed texlive-langportuguese
+```
+
+(Optional) For image manipulation, install
+
+```bash
+sudo pacman -S --needed imagemagick
 ```
 
 To change the package install location (it defaults to `~/texmf/`), change the `TEXMFHOME` environment variable (add the following command to you `.bash_profile`):
@@ -36,7 +48,6 @@ Install packages
 
 ```bash
 tlmgr --usermode install \
-	babel-portuges \
 	import \
 	subfiles \
 	commath \
@@ -47,7 +58,6 @@ tlmgr --usermode install \
 
 LaTeX packages:
 
-- babel-portuges
 - subfiles
 	- import
 - commath
