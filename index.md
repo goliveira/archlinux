@@ -70,3 +70,6 @@ Typesetting system
 
 Note taking
 - [obsidian](obsidian.md)
+
+TeX editor
+- [kile](kile.md)
