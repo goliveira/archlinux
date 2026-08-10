@@ -17,6 +17,12 @@ sudo pacman -S dolphin
 
 Auto mount and trash can functionality should work out of the box.
 
+Install kdegraphics-thumbnailers for PDF and PS thumbnails:
+
+```bash
+sudo pacman -S kdegraphics-thumbnailers
+```
+
 ---
 
 Next: [Install PDF and image viewers](31-viewers.md)
