@@ -13,7 +13,7 @@ Install
 sudo pacman -S --needed git
 ```
 
-Create a config file with
+Create a config file
 
 ```bash
 nano ~/.gitconfig
@@ -31,6 +31,7 @@ Add
     ui = true
 [alias]
     tip = log -1 HEAD
+    s = status -uno
 ```
 
 ---
