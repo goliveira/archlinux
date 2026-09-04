@@ -33,44 +33,6 @@ sudo pacman -S --needed \
     adobe-source-serif-fonts
 ```
 
-Download `ttf-gentium-basic` font from AUR
-
-```bash
-git clone https://aur.archlinux.org/ttf-gentium-basic.git
-```
-
-Make
-
-```bash
-cd ttf-gentium-basic
-makepkg -s
-```
-
-Install (replace `<version>`)
-
-```bash
-sudo pacman -U ttf-gentium-basic-<version>-x86_64.pkg.tar.zst
-```
-
-Download `ttf-ms-fonts` font from AUR
-
-```bash
-git clone https://aur.archlinux.org/ttf-ms-fonts.git
-```
-
-Make
-
-```bash
-cd ttf-ms-fonts
-makepkg -s
-```
-
-Install (replace `<version>`)
-
-```bash
-sudo pacman -U ttf-ms-fonts-<version>-x86_64.pkg.tar.zst
-```
-
 ---
 
 [Back to index](index.md)
