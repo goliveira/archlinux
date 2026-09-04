@@ -14,7 +14,7 @@ Create `/etc/hostname` by executing (replace `myhostname` accordingly)
 echo "myhostname" >> /etc/hostname
 ```
 
-Check the result with
+Check the result:
 
 ```bash
 cat /etc/hostname
