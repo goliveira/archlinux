@@ -37,7 +37,7 @@ Install
 pacman -S zram-generator
 ```
 
-Create a config file with
+Create a config file:
 
 ```bash
 nano /etc/systemd/zram-generator.conf
