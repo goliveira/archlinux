@@ -22,7 +22,7 @@ cryptsetup luksFormat /dev/sda2
 cryptsetup config /dev/sda2 --label "LUKS"
 ```
 
-Check the results with
+Check the results:
 
 ```bash
 cryptsetup luksDump /dev/sda2
