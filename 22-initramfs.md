@@ -9,7 +9,7 @@ References:
 
 ---
 
-Edit the config file with
+Edit the config file:
 
 ```
 nano /etc/mkinitcpio.conf
