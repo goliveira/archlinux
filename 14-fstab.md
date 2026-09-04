@@ -14,7 +14,7 @@ Execute
 genfstab -U /mnt >> /mnt/etc/fstab
 ```
 
-Check the result with
+Check the result
 
 ```bash
 cat /mnt/etc/fstab
