@@ -29,7 +29,7 @@ gpg --delete-keys Pierre
 gpg --delete-keys Pierre
 ```
 
-Check that the keys are removed with
+Check that the keys are removed:
 
 ```bash
 gpg -k
