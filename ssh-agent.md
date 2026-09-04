@@ -8,7 +8,7 @@ References:
 
 Note: Install SSH as described in [ssh](ssh.md).
 
-Edit bash config file with
+Edit bash config file
 
 ```bash
 nano ~/.bash_profile
@@ -21,7 +21,7 @@ Add (at the top of the file)
 export SSH_AUTH_SOCK="$XDG_RUNTIME_DIR/ssh-agent.socket"
 ```
 
-Create a config file with
+Create a config file
 
 ```bash
 nano ~/.ssh/config
@@ -39,7 +39,7 @@ As user, enable
 systemctl --user enable ssh-agent.socket --now
 ```
 
-Check status with
+Check status
 
 ```bash
 systemctl --user status ssh-agent.socket
