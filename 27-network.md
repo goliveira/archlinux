@@ -29,7 +29,7 @@ Enable
 sudo systemctl enable NetworkManager.service --now
 ```
 
-After reboot, check status with
+After reboot, check status:
 
 ```bash
 systemctl status NetworkManager.service
@@ -46,7 +46,7 @@ systemctl status NetworkManager.service
 
 Networkd is already installed on the computer as it is part of systemd.
 
-(Wired) Create a config file for a wired adapter with
+(Wired) Create a config file for a wired adapter:
 
 ```bash
 sudo nano /etc/systemd/network/20-wired.network
@@ -66,7 +66,7 @@ DHCP=yes
 MulticastDNS=yes
 ```
 
-(Wireless) Create a config file for a wireless adapter with
+(Wireless) Create a config file for a wireless adapter:
 
 ```bash
 sudo nano /etc/systemd/network/25-wireless.network
@@ -93,7 +93,7 @@ Enable
 sudo systemctl enable systemd-networkd.service --now
 ```
 
-After reboot, check status with
+After reboot, check status:
 
 ```bash
 networkctl
@@ -117,7 +117,7 @@ Enable
 sudo systemctl enable iwd.service --now
 ```
 
-After reboot, check status with
+After reboot, check status:
 
 ```bash
 systemctl status iwd.service
@@ -143,7 +143,7 @@ Replace `/etc/resolve.conf` with a symbolic link to `stub-resolv.conf`:
 sudo ln -sf /run/systemd/resolve/stub-resolv.conf /etc/resolv.conf
 ```
 
-After reboot, check status with
+After reboot, check status:
 
 ```bash
 resolvectl
@@ -171,7 +171,7 @@ ping -c 3 myhostname.local
 
 Timesyncd is already installed on the computer as it is part of systemd.
 
-Edit the config file with
+Edit the config file:
 
 ```bash
 sudo nano /etc/systemd/timesyncd.conf
@@ -259,7 +259,7 @@ nmcli device wifi connect SSID password mypassword
 nmcli connection show
 ```
 
-Internet connection should work (and NetworkManager will auto-connect in the future). Check the connection with
+Internet connection should work (and NetworkManager will auto-connect in the future). Check the connection:
 
 ```bash
 ping -c 3 www.google.com
