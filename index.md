@@ -79,3 +79,6 @@ Arch build system
 
 Spell checker
 - [hunspell](hunspell.md)
+
+Office suite
+- [libreoffice](libreoffice.md)
