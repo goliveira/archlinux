@@ -49,7 +49,7 @@ uid           [ultimate] Password Storage Key
 ssb   rsa2048 2014-08-13 [E]
 ```
 
-Edit the key with
+Edit key
 
 ```bash
 gpg --edit-key "Password Storage"
