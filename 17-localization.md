@@ -8,7 +8,7 @@ References:
 
 ---
 
-Edit `locale.gen` with
+Edit `locale.gen` :
 
 ```bash
 nano /etc/locale.gen
@@ -32,7 +32,7 @@ Create `/etc/locale.conf` by running
 echo "LANG=en_US.UTF-8" >> /etc/locale.conf
 ```
 
-Check the result with
+Check the result:
 
 ```bash
 cat /etc/locale.conf
@@ -50,7 +50,7 @@ Alternative (for a Brazilian keyboard), execute
 echo "KEYMAP=br-abnt2" >> /etc/vconsole.conf
 ```
 
-Check the result with
+Check the result:
 
 ```bash
 cat /etc/vconsole.conf
