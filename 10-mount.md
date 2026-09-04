@@ -44,7 +44,7 @@ For UEFI systems, mount the EFI system partition (replace `/dev/sda1` accordingl
 mount --mkdir /dev/sda1 /mnt/boot
 ```
 
-Check with
+Check
 
 ```bash
 lsblk -f
