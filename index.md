@@ -85,3 +85,6 @@ Office suite
 
 Bibliographic manager
 - [zotero](zotero.md)
+
+Download manager
+- [wget](wget.md)
