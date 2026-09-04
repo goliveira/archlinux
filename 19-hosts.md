@@ -14,7 +14,7 @@ Edit `/etc/hosts` by running (replace `myhostname` accordingly)
 echo "127.0.1.1        myhostname" >> /etc/hosts
 ```
 
-Check the result with
+Check the result:
 
 ```bash
 cat /etc/hosts
