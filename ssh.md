@@ -14,13 +14,13 @@ Install
 sudo pacman -S --needed openssh
 ```
 
-Enable server
+Enable
 
 ```bash
 sudo systemctl enable sshd.service --now
 ```
 
-Check status with
+Check status
 
 ```bash
 systemctl status sshd.service
