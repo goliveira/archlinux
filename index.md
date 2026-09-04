@@ -82,3 +82,6 @@ Spell checker
 
 Office suite
 - [libreoffice](libreoffice.md)
+
+Bibliographic manager
+- [zotero](zotero.md)
