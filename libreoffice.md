@@ -12,7 +12,7 @@ Note: Install fonts for libreoffice as described in [fonts](fonts.md).
 Install
 
 ```bash
-sudo pacman -S libreoffice-fresh
+sudo pacman -S --needed libreoffice-fresh
 ```
 
 Accessories
