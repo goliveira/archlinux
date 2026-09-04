@@ -76,3 +76,6 @@ TeX editor
 
 Arch build system
 - [aur](aur.md)
+
+Spell checker
+- [hunspell](hunspell.md)
