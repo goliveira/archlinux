@@ -111,8 +111,9 @@ Scientific computing
 Python
 - [uv](uv.md)
 
-Email client
+Email clients
 - [kmail](kmail.md)
+- [thunderbird](thunderbird.md)
 
 Download manager
 - [wget](wget.md)
