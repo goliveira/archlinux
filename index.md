@@ -119,3 +119,6 @@ Download manager
 
 Application launcher
 - [bemenu](bemenu.md)
+
+Firewall manager
+- [firewalld](firewalld.md)
