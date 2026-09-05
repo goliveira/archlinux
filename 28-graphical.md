@@ -46,19 +46,7 @@ Install discover for managing applications and plasma addons:
 sudo pacman -S discover
 ```
 
-Install the plasma applet for audio volume management using pulseaudio:
-
-```bash
-sudo pacman -S plasma-pa
-```
-
-Install KDE screenshot capture utility:
-
-```bash
-sudo pacman -S spectacle
-```
-
-Install kscreen for multi monitor support:
+Install kscreen for monitor support:
 
 ```bash
 sudo pacman -S kscreen
@@ -70,10 +58,22 @@ Enter the number 30 to select the english language (or choose another language):
 Enter a number (default=1): 30
 ```
 
+Install the plasma applet for audio volume management using pulseaudio:
+
+```bash
+sudo pacman -S plasma-pa
+```
+
 (With NetworkManager only) Install the plasma applet for managing network connections:
 
 ```bash
 sudo pacman -S plasma-nm
+```
+
+Install KDE screenshot capture utility:
+
+```bash
+sudo pacman -S spectacle
 ```
 
 Install a display manager:
