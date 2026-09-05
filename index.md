@@ -106,3 +106,6 @@ Bibliographic manager
 
 Download manager
 - [wget](wget.md)
+
+Python
+- [uv](uv.md)
