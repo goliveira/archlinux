@@ -80,32 +80,32 @@ Printer support
 
 ## More applications
 
+Arch build system
+- [aur](aur.md)
+
 Text editor
 - [vim](vim.md)
-
-Typesetting system
-- [LaTeX](latex.md)
-
-Note taking
-- [obsidian](obsidian.md)
 
 TeX editor
 - [kile](kile.md)
 
-Arch build system
-- [aur](aur.md)
-
-Spell checker
-- [hunspell](hunspell.md)
-
-Office suite
-- [libreoffice](libreoffice.md)
+Note taking
+- [obsidian](obsidian.md)
 
 Bibliographic manager
 - [zotero](zotero.md)
 
-Download manager
-- [wget](wget.md)
+Office suite
+- [libreoffice](libreoffice.md)
+
+Spell checker
+- [hunspell](hunspell.md)
+
+Typesetting system
+- [LaTeX](latex.md)
 
 Python
 - [uv](uv.md)
+
+Download manager
+- [wget](wget.md)
