@@ -110,5 +110,8 @@ Sagemath
 Python
 - [uv](uv.md)
 
+Email client
+- [kmail](kmail.md)
+
 Download manager
 - [wget](wget.md)
