@@ -63,6 +63,9 @@ Web server
 KDE plasma
 - [kde](kde.md)
 
+Terminal
+- [konsole](konsole.md)
+
 ## More applications
 
 Text editor
