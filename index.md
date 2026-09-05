@@ -38,6 +38,18 @@
 
 ## Essential applications
 
+KDE plasma
+- [kde](kde.md)
+
+Plasma login manager
+- [plasmalogin](plasmalogin.md)
+
+Terminal
+- [konsole](konsole.md)
+
+Internet browser
+- [firefox](firefox.md)
+
 Install fonts
 - [fonts](fonts.md)
 
@@ -59,18 +71,6 @@ Version control system
 
 Web server
 - [lighttpd](lighttpd.md)
-
-KDE plasma
-- [kde](kde.md)
-
-Plasma login manager
-- [plasmalogin](plasmalogin.md)
-
-Terminal
-- [konsole](konsole.md)
-
-Internet browser
-- [firefox](firefox.md)
 
 ## More applications
 
