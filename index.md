@@ -60,6 +60,9 @@ Version control system
 Web server
 - [lighttpd](lighttpd.md)
 
+KDE plasma
+- [kde](kde.md)
+
 ## More applications
 
 Text editor
