@@ -86,7 +86,7 @@ Arch build system
 Text editor
 - [vim](vim.md)
 
-TeX editor
+LaTeX editor
 - [kile](kile.md)
 
 Note taking
@@ -105,7 +105,7 @@ Spell checker
 Typesetting system
 - [LaTeX](latex.md)
 
-Sagemath
+Scientific computing
 - [sagemath](sagemath.md)
 
 Python
