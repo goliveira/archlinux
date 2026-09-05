@@ -116,3 +116,6 @@ Email client
 
 Download manager
 - [wget](wget.md)
+
+Application launcher
+- [bemenu](bemenu.md)
