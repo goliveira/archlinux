@@ -39,6 +39,7 @@ The pipewire sound server will be automatically installed as a dependency.
 - plasma-pa
 - plasma-nm
 - spectacle
+- [plasmalogin](plasmalogin.md)
 - [konsole](konsole.md)
 
 Install discover for managing applications and plasma addons:

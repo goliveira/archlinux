@@ -63,6 +63,9 @@ Web server
 KDE plasma
 - [kde](kde.md)
 
+Plasma login manager
+- [plasmalogin](plasmalogin.md)
+
 Terminal
 - [konsole](konsole.md)
 
