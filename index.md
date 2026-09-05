@@ -38,6 +38,9 @@
 
 ## Essential applications
 
+Network manager
+- [networkmanager](networkmanager.md)
+
 KDE plasma
 - [kde](kde.md)
 
