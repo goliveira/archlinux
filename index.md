@@ -75,6 +75,9 @@ Version control system
 Web server
 - [lighttpd](lighttpd.md)
 
+Printer support
+- [cups](cups.md)
+
 ## More applications
 
 Text editor
