@@ -66,6 +66,9 @@ KDE plasma
 Terminal
 - [konsole](konsole.md)
 
+Internet browser
+- [firefox](firefox.md)
+
 ## More applications
 
 Text editor
