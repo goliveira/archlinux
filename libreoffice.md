@@ -17,8 +17,8 @@ sudo pacman -S --needed libreoffice-fresh
 
 Accessories
 
+- Java runtime --- [java](java.md)
 - Spell checker --- [hunspell](hunspell.md)
-- Java runtime
 
 ---
 
