@@ -104,6 +104,9 @@ Spell checker
 Typesetting system
 - [LaTeX](latex.md)
 
+Sagemath
+- [sagemath](sagemath.md)
+
 Python
 - [uv](uv.md)
 
