@@ -78,6 +78,9 @@ Web server
 Printer support
 - [cups](cups.md)
 
+Service discovery
+- [avahi](avahi.md)
+
 ## More applications
 
 Arch build system
