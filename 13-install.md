@@ -11,7 +11,7 @@ References:
 Execute
 
 ```bash
-pacstrap -K /mnt base linux linux-firmware nano bash-completion man-db man-pages texinfo iwd dhcpcd networkmanager
+pacstrap -K /mnt base linux linux-firmware nano bash-completion man-db man-pages texinfo iwd wpa_supplicant dhcpcd networkmanager
 ```
 
 Essential packages:
@@ -24,6 +24,7 @@ Essential packages:
 - man-db, man-pages (man pages)
 - texinfo (info pages)
 - iwd (internet wireless daemon)
+- wpa_supplicant (for WPA wireless connection)
 - dhcpcd (DHCP client)
 - networkmanager (networkmanager)
 
