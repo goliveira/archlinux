@@ -14,7 +14,7 @@ Edit `locale.gen` :
 nano /etc/locale.gen
 ```
 
-and replace the line `#en_US.UTF-8` by 
+Replace the line `#en_US.UTF-8` by 
 
 ```
 en_US.UTF-8
