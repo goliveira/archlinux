@@ -14,7 +14,7 @@ Install
 pacman -S sudo
 ```
 
-Edit `/etc/sudoers` with
+Edit `/etc/sudoers`:
 
 ```bash
 EDITOR=nano visudo
