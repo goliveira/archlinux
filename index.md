@@ -98,8 +98,6 @@ Bibliographic manager
 Office suite
 - [libreoffice](libreoffice.md)
 - [java](java.md)
-
-Spell checker
 - [hunspell](hunspell.md)
 
 Typesetting system
