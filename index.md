@@ -127,3 +127,6 @@ Firewall manager
 
 Terminal
 - [alacritty](alacritty.md)
+
+Terminal session
+- [tmux](tmux.md)
