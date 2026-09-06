@@ -18,7 +18,7 @@ Enable
 sudo systemctl enable avahi.service --now
 ```
 
-Open UDP port 5353 if you are using a firewall.
+Open port 5353/udp if you are using a firewall.
 
 We will keep using systemd-resolved mDNS service.
 
