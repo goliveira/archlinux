@@ -13,7 +13,7 @@ Install (minimal installation)
 sudo pacman -S --needed plasma-desktop
 ```
 
-In the installation dialog, select option 2) for `pipewire-jack`:
+In the installation dialog, select options 2) and 1):
 
 ```
 resolving dependencies...
@@ -29,8 +29,6 @@ Enter a number (default=1): 2
 
 Enter a number (default=1): 1
 ```
-
-The pipewire sound server will be automatically installed as a dependency.
 
 ## Accessories
 
