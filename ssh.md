@@ -26,6 +26,8 @@ Check status
 systemctl status sshd.service
 ```
 
+Open port 22/tcp if you are using a firewall.
+
 Client config files
 
 ```
