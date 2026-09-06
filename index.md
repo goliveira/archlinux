@@ -124,3 +124,6 @@ Application launcher
 
 Firewall manager
 - [firewalld](firewalld.md)
+
+Terminal
+- [alacritty](alacritty.md)
