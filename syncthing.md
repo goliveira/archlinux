@@ -21,6 +21,8 @@ sudo systemctl enable syncthing@username.service --now
 
 After reboot, to set up syncthing go to the web interface at <http://localhost:8384>.
 
+Open ports 22000/tcp 22000/udp 21027/udp if you are using a firewall.
+
 ---
 
 [Back to index](index.md)
