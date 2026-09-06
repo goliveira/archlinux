@@ -43,6 +43,7 @@ Network manager
 
 KDE plasma
 - [kde](kde.md)
+- [kdeconnect](kdeconnect.md)
 
 Plasma login manager
 - [plasmalogin](plasmalogin.md)

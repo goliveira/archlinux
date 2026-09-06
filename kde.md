@@ -39,6 +39,7 @@ Enter a number (default=1): 1
 - spectacle
 - [plasmalogin](plasmalogin.md)
 - [konsole](konsole.md)
+- [kdeconnect](kdeconnect.md)
 
 Install discover for managing applications and plasma addons:
 
@@ -74,6 +75,18 @@ Install KDE screenshot capture utility:
 
 ```bash
 sudo pacman -S --needed spectacle
+```
+
+Install konsole terminal:
+
+```bash
+sudo pacman -S --needed konsole
+```
+
+Install KDE connect:
+
+```bash
+sudo pacman -S --needed kdeconnect
 ```
 
 ---
