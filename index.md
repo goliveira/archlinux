@@ -130,3 +130,6 @@ Terminal
 
 Terminal session
 - [tmux](tmux.md)
+
+Disk image writer
+- [caligula](caligula.md)
