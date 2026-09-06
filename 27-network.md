@@ -12,14 +12,14 @@ Login as a regular user and use `sudo` to execute commands as superuser.
 
 We will configure the network to connect automatically to the internet.
 
-First, we describe two options for network manager:
+We describe two options for network manager:
 
 - NetworkManager - recommended if you connect to different networks (in a laptop)
 - Systemd-networkd - recommended for a static connection (in a desktop)
 
 ## NetworkManager
 
-(Alternative to Systemd-networkd) Use `networkmanager` as the network manager (we have already installed it):
+Use `networkmanager` as the network manager (we have already installed it):
 
 - <https://wiki.archlinux.org/title/NetworkManager>
 
@@ -39,7 +39,7 @@ systemctl status NetworkManager.service
 
 ## Systemd-networkd
 
-(Alternative to NetworkManager) Use `systemd-networked` as the network manager:
+Use `systemd-networked` as the network manager:
 
 - <https://wiki.archlinux.org/title/Systemd-networkd>
 - <https://wiki.archlinux.org/title/Systemd-networkd#Wireless_adapter>
@@ -52,7 +52,7 @@ Networkd is already installed on the computer as it is part of systemd.
 sudo nano /etc/systemd/network/20-wired.network
 ```
 
-(Wired) Add (replace `enp3s0f0` accordingly)
+Add (replace `enp3s0f0` accordingly)
 
 ```
 [Match]
@@ -60,6 +60,7 @@ Name=enp3s0f0
 
 [Link]
 RequiredForOnline=routable
+Multicast=true
 
 [Network]
 DHCP=yes
@@ -72,7 +73,7 @@ MulticastDNS=yes
 sudo nano /etc/systemd/network/25-wireless.network
 ```
 
-(Wireless) Add (replace `wlan0` accordingly)
+Add (replace `wlan0` accordingly)
 
 ```
 [Match]
@@ -80,6 +81,7 @@ Name=wlan0
 
 [Link]
 RequiredForOnline=routable
+Multicast=true
 
 [Network]
 DHCP=yes
@@ -93,7 +95,7 @@ Enable
 sudo systemctl enable systemd-networkd.service --now
 ```
 
-After reboot, check status:
+After reboot, check status with
 
 ```bash
 networkctl
@@ -146,7 +148,7 @@ sudo ln -sf /run/systemd/resolve/stub-resolv.conf /etc/resolv.conf
 After reboot, check status:
 
 ```bash
-resolvectl
+resolvectl status
 ```
 
 ## mDNS configuration
@@ -155,7 +157,7 @@ Use `systemd-resolved` to manage mDNS:
 
 - <https://wiki.archlinux.org/title/Systemd-resolved#mDNS>
 
-It is enabled by default with systemd-resolved. The interfaces must be configured to use mDNS as described above (with MulticastDNS=yes).
+It is enabled by default with systemd-resolved. For systemd-networked, the interfaces must be configured to use mDNS as described above (with MulticastDNS=yes and Multicast=true).
 
 After reboot, try local DNS resolution with (replace `myhostname` accordingly)
 
@@ -165,7 +167,7 @@ ping -c 3 myhostname.local
 
 ## Timesyncd
 
-(With NetworkManager or Systemd-networkd) Use `systemd-timesync` to manage time synchromization:
+Use `systemd-timesync` to manage time synchromization:
 
 - <https://wiki.archlinux.org/title/Systemd-timesyncd>
 
@@ -237,7 +239,7 @@ quit
 
 Note: To connect to a network with spaces in the SSID, the network name should be double quoted (for example, "my network").
 
-The program `iwd` automatically stores network passphrases in the `/var/lib/iwd` directory and uses them to auto-connect in the future.
+The program iwd automatically stores network passphrases in the `/var/lib/iwd` directory and uses them to auto-connect in the future.
 
 Internet connection should work. Check the connection with
 
@@ -259,7 +261,9 @@ nmcli device wifi connect SSID password mypassword
 nmcli connection show
 ```
 
-Internet connection should work (and NetworkManager will auto-connect in the future). Check the connection:
+The program NetworkManager automatically stores network passphrases in the `/etc/NetworkManager/system-connections/` directory and uses them to auto-connect in the future.
+
+Internet connection should work. Check the connection:
 
 ```bash
 ping -c 3 www.google.com
@@ -282,16 +286,21 @@ ping -c 3 www.google.com
 (With Systemd-networkd and iwd only) :
 
 ```bash
+ping -c 3 www.google.com
+resolvectl status
 networkctl
 networkctl status
 systemctl status iwd.service
+timedatectl status
+timedatectl timesync-status --all
 ```
 
-(With NetworkManager or Systemd-networkd) (replace `myhostname` accordingly):
+(With NetworkManager):
 
 ```bash
-resolvectl
-ping -c 3 myhostname.local
+ping -c 3 www.google.com
+resolvectl status
+systemctl status NetworkManager.service
 timedatectl status
 timedatectl timesync-status --all
 ```
