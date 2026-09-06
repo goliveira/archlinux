@@ -31,6 +31,32 @@ systemctl status firewalld.service
 sudo pacman -S --needed firewall-config
 ```
 
+Find services:
+
+```bash
+sudo firewall-cmd --get-services
+```
+
+Get information (ports) about a service. For example:
+
+```bash
+sudo firewall-cmd --info-service=http
+```
+
+Open some ports. For example:
+
+```bash
+sudo firewall-cmd --add-service=http
+sudo firewall-cmd --add-service=mdns
+sudo firewall-cmd --add-service=syncthing
+```
+
+Make runtime changes permanent:
+
+```bash
+sudo firewall-cmd --runtime-to-permanent
+```
+
 Accessories:
 
 - firewall-config --- Graphical user interface
