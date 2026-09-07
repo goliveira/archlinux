@@ -33,18 +33,34 @@ Enter a number (default=1): 1
 ## Accessories
 
 - discover
-- kscreen
-- plasma-pa
 - plasma-nm
+- plasma-pa
+- kscreen
 - spectacle
-- [plasmalogin](plasmalogin.md)
 - [konsole](konsole.md)
+- [dolphin](dolphin.md)
+- [kate](kate.md)
+- [okular](okular.md)
+- [gwenview](gwenview.md)
+- [plasmalogin](plasmalogin.md)
 - [kdeconnect](kdeconnect.md)
 
 Install discover for managing applications and plasma addons:
 
 ```bash
 sudo pacman -S --needed discover
+```
+
+(With NetworkManager only) Install the plasma applet for managing network connections:
+
+```bash
+sudo pacman -S --needed plasma-nm
+```
+
+Install the plasma applet for audio volume management using pulseaudio:
+
+```bash
+sudo pacman -S --needed plasma-pa
 ```
 
 Install kscreen for monitor support:
@@ -59,34 +75,10 @@ Enter the number 30 to select the english language (or choose another language):
 Enter a number (default=1): 30
 ```
 
-Install the plasma applet for audio volume management using pulseaudio:
-
-```bash
-sudo pacman -S --needed plasma-pa
-```
-
-(With NetworkManager only) Install the plasma applet for managing network connections:
-
-```bash
-sudo pacman -S --needed plasma-nm
-```
-
 Install KDE screenshot capture utility:
 
 ```bash
 sudo pacman -S --needed spectacle
-```
-
-Install konsole terminal:
-
-```bash
-sudo pacman -S --needed konsole
-```
-
-Install KDE connect:
-
-```bash
-sudo pacman -S --needed kdeconnect
 ```
 
 ---
