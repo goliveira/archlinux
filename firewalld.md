@@ -25,12 +25,6 @@ Check status
 systemctl status firewalld.service
 ```
 
-(Optional) Install a graphical user interface
-
-```bash
-sudo pacman -S --needed firewall-config
-```
-
 Find services:
 
 ```bash
@@ -57,9 +51,15 @@ Make runtime changes permanent:
 sudo firewall-cmd --runtime-to-permanent
 ```
 
-Accessories:
+## Accessories
 
-- firewall-config --- Graphical user interface
+- firewall-config
+
+Install a graphical user interface
+
+```bash
+sudo pacman -S --needed firewall-config
+```
 
 ---
 
