@@ -50,7 +50,12 @@ Get a list of connections with their names, UUIDs, types and backing devices:
 nmcli connection show
 ```
 
-(Optional) To provide integration with a desktop environment, install an applet.
+## Accessories
+
+- plasma-nm
+- network-manager-applet
+
+To provide integration with a desktop environment, install an applet.
 
 For KDE plasma:
 
