@@ -44,6 +44,18 @@ Install discover for managing applications and plasma addons:
 sudo pacman -S discover
 ```
 
+(With NetworkManager only) Install the plasma applet for managing network connections:
+
+```bash
+sudo pacman -S plasma-nm
+```
+
+Install the plasma applet for audio volume management using pulseaudio:
+
+```bash
+sudo pacman -S plasma-pa
+```
+
 Install kscreen for monitor support:
 
 ```bash
@@ -56,30 +68,43 @@ Enter the number 30 to select the english language (or choose another language):
 Enter a number (default=1): 30
 ```
 
-Install the plasma applet for audio volume management using pulseaudio:
-
-```bash
-sudo pacman -S plasma-pa
-```
-
-(With NetworkManager only) Install the plasma applet for managing network connections:
-
-```bash
-sudo pacman -S plasma-nm
-```
-
 Install KDE screenshot capture utility:
 
 ```bash
 sudo pacman -S spectacle
 ```
 
+Install a graphical terminal:
+
+```bash
+sudo pacman -S konsole
+```
+
+Install a file manager:
+
+```bash
+sudo pacman -S dolphin
+```
+
+Install a text editor:
+
+```bash
+sudo pacman -S kate
+```
+
+Install a PDF viewer:
+
+```bash
+sudo pacman -S okular
+```
+
+Install an image viewer:
+
+```bash
+sudo pacman -S gwenview
+```
+
 Install a display manager:
-
-- <https://wiki.archlinux.org/title/Display_manager>
-- <https://wiki.archlinux.org/title/Plasma_Login_Manager>
-
-For example, install plasma login manager:
 
 ```bash
 sudo pacman -S plasma-login-manager
@@ -89,17 +114,6 @@ Enable
 
 ```bash
 sudo systemctl enable plasmalogin.service
-```
-
-Install a graphical terminal:
-
-- <https://wiki.archlinux.org/title/List_of_applications/Utilities#Terminal_emulators>
-- <https://wiki.archlinux.org/title/Konsole>
-
-For example, install konsole:
-
-```bash
-sudo pacman -S konsole
 ```
 
 Reboot the system. A graphical login screen will appear. Enter your username and password. Hit the `super` key and type `konsole`. Now you have a nice graphical terminal.
