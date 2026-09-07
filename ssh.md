@@ -63,7 +63,7 @@ chmod 644 ~/.ssh/config
 chmod 644 ~/.ssh/id_rsa.pub
 ```
 
-Accessories:
+## Accessories
 
 - [ssh-agent](ssh-agent.md)
 
