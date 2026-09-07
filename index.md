@@ -31,28 +31,44 @@
 27. [Network](27-network.md)
 28. [Graphical](28-graphical.md)
 29. [Browser](29-browser.md)
-30. [File manager](30-file_manager.md)
-31. [Viewers](31-viewers.md)
-32. [Text editor](32-text_editor)
-33. [Congratulations](33-congrats.md)
+30. [Congratulations](30-congrats.md)
 
-## Essential applications
+## Applications
 
-Network manager
-- [networkmanager](networkmanager.md)
+### Installed above
 
-KDE plasma
-- [kde](kde.md)
-- [kdeconnect](kdeconnect.md)
+- base (minimal packages for a basic Arch Linux installation)
+- linux (the Linux kernel and modules)
+- linux-firmare (firmware files for Linux)
+- nano (basic text editor)
+- bash-completion (completions for the bash shell)
+- man-db (man page reader)
+- man-pages (linux man pages)
+- texinfo (info pages)
+- iwd (internet wireless daemon)
+- wpa_supplicant (for WPA wireless connection)
+- dhcpcd (DHCP client)
+- [networkmanager](networkmanager.md) (network manager)
+- limine (bootloader)
+- efibootmgr (boot manager editor)
+- zram-generator (systemd generator for zram)
+- intel-ucode or amd-ucode (microcode)
+- sudo (privilege elevator)
+- plasma-desktop (KDE Plasma Desktop)
+	- discover (resources store)
+	- plasma-nm (applet for network manager)
+	- plasma-pa (applet for audio volume)
+	- kscreen (screen manager)
+	- spectacle (screenshot utility)
+	- konsole (terminal emulator)
+	- dolphin (file manager)
+	- kate and kwrite (text editors)
+	- okular (document viewer)
+	- gwenview (image viewer)
+	- plasma-login-manager (login manager)
+	- firefox (web browser)
 
-Plasma login manager
-- [plasmalogin](plasmalogin.md)
-
-Terminal
-- [konsole](konsole.md)
-
-Internet browser
-- [firefox](firefox.md)
+### Essential applications
 
 Install fonts
 - [fonts](fonts.md)
@@ -70,42 +86,84 @@ File synchronization
 - [syncthing](syncthing.md)
 - [rsync](rsync.md)
 
-Version control system
+Version control
 - [git](git.md)
-
-Web server
-- [lighttpd](lighttpd.md)
-
-Printer support
-- [cups](cups.md)
 
 Service discovery
 - [avahi](avahi.md)
 
-## More applications
+Printer support
+- [cups](cups.md)
 
-Arch build system
-- [aur](aur.md)
+Web server
+- [lighttpd](lighttpd.md)
 
-Text editor
+Firewall manager
+- [firewalld](firewalld.md)
+
+Input sharing
+- [deskflow](deskflow.md)
+
+### More applications
+
+KDE Plasma
+- [kde](kde.md)
+- discover
+- plasma-nm
+- plasma-pa
+- kscreen
+- spectacle
+- konsole
+- dolphin
+- kate
+- okular
+- gwenview
+- [plasmalogin](plasmalogin.md)
+- [kdeconnect](kdeconnect.md)
+
+Terminals
+- [konsole](konsole.md)
+- [alacritty](alacritty.md)
+
+Terminal session
+- [tmux](tmux.md)
+
+File manager
+- [dolphin](dolphin.md)
+
+Text editors
+- [kate](kate.md)
 - [vim](vim.md)
 
-LaTeX editor
-- [kile](kile.md)
+PDF viewer
+- [okular](okular.md)
+
+Image viewer
+- [gwenview](gwenview.md)
+
+Internet browser
+- [firefox](firefox.md)
 
 Note taking
 - [obsidian](obsidian.md)
-
-Bibliographic manager
-- [zotero](zotero.md)
 
 Office suite
 - [libreoffice](libreoffice.md)
 - [java](java.md)
 - [hunspell](hunspell.md)
 
+Email clients
+- [kmail](kmail.md)
+- [thunderbird](thunderbird.md)
+
+Bibliographic manager
+- [zotero](zotero.md)
+
 Typesetting system
 - [LaTeX](latex.md)
+
+LaTeX editor
+- [kile](kile.md)
 
 Scientific computing
 - [sagemath](sagemath.md)
@@ -113,9 +171,8 @@ Scientific computing
 Python
 - [uv](uv.md)
 
-Email clients
-- [kmail](kmail.md)
-- [thunderbird](thunderbird.md)
+Arch build system
+- [aur](aur.md)
 
 Download manager
 - [wget](wget.md)
@@ -123,17 +180,5 @@ Download manager
 Application launcher
 - [bemenu](bemenu.md)
 
-Firewall manager
-- [firewalld](firewalld.md)
-
-Terminal
-- [alacritty](alacritty.md)
-
-Terminal session
-- [tmux](tmux.md)
-
 Disk image writer
 - [caligula](caligula.md)
-
-Input sharing
-- [deskflow](deskflow.md)
