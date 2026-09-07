@@ -1,28 +1,30 @@
-# 30 - File manager
+# Dolphin
 
-Previous: [Install firefox](29-browser.md)
-
----
-
-Install a file manager:
+References:
 
 - <https://wiki.archlinux.org/title/List_of_applications/Utilities#File_managers>
 - <https://wiki.archlinux.org/title/Dolphin>
 
-For example, install dolphin:
+---
+
+Install
 
 ```bash
-sudo pacman -S dolphin
+sudo pacman -S --needed dolphin
 ```
 
 Auto mount and trash can functionality should work out of the box.
 
+## Accessories
+
+- kdegraphics-thumbnailers
+
 Install kdegraphics-thumbnailers for PDF and PS thumbnails:
 
 ```bash
-sudo pacman -S kdegraphics-thumbnailers
+sudo pacman -S --needed kdegraphics-thumbnailers
 ```
 
 ---
 
-Next: [Install PDF and image viewers](31-viewers.md)
+[Back to index](index.md)
