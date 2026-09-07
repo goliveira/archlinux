@@ -7,6 +7,8 @@ References:
 
 ---
 
+Note: Install base-devel as described in [aur](aur.md).
+
 Download from AUR
 
 ```bash
