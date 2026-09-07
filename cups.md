@@ -20,7 +20,11 @@ sudo systemctl enable cups.service --now
 
 The CUPS server can be administered through the web interface at <http://localhost:631>.
 
-(Optional) Install drivers for EPSON. Download `epson-inkjet-printer-escpr` from AUR
+## Drivers
+
+Note: Install base-devel as described in [aur](aur.md).
+
+Install drivers for EPSON. Download `epson-inkjet-printer-escpr` from AUR
 
 ```bash
 git clone https://aur.archlinux.org/epson-inkjet-printer-escpr.git
