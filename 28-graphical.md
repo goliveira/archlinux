@@ -86,6 +86,12 @@ Install a file manager:
 sudo pacman -S dolphin
 ```
 
+Install thumbnails generator:
+
+```bash
+sudo pacman -S kdegraphics-thumbnailers
+```
+
 Install a text editor:
 
 ```bash
