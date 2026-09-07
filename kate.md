@@ -1,21 +1,19 @@
-# 32 - Text editor
+# Kate
 
-Previous:  [Install PDF and image viewers](31-viewers.md)
-
----
-
-Install a text editor:
+References:
 
 - <https://wiki.archlinux.org/title/List_of_applications/Documents#Text_editors>
 - <https://wiki.archlinux.org/title/Kate>
 - <https://en.wikipedia.org/wiki/KWrite>
 
-For example, install kate and kwrite:
+---
+
+Install kate and kwrite:
 
 ```bash
-sudo pacman -S kate
+sudo pacman -S --needed kate
 ```
 
 ---
 
-Next: [Congratulations](33-congrats.md)
+[Back to index](index.md)
