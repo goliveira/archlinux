@@ -1,6 +1,6 @@
-# 32 - Congratulations
+# 30 - Congratulations
 
-Previous: [Install PDF and image viewers](31-viewers.md)
+Previous: [Install firefox](29-browser.md)
 
 ---
 
