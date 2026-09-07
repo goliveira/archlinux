@@ -19,6 +19,8 @@ Install English dictionaries
 sudo pacman -S --needed hunspell-en_us
 ```
 
+Note: Install base-devel as described in [aur](aur.md).
+
 Download Brazilian dictionary from AUR
 
 ```bash
