@@ -40,4 +40,4 @@ Sound playback (including unmuting) should work out of the box. To test sound, g
 
 ---
 
-Next: [Install a file manager](30-file_manager.md)
+Next: [Congratulations](30-congrats.md)
