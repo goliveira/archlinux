@@ -120,6 +120,7 @@ KDE Plasma
 - gwenview
 - [plasmalogin](plasmalogin.md)
 - [kdeconnect](kdeconnect.md)
+- ark
 
 Terminals
 - [konsole](konsole.md)
@@ -182,3 +183,6 @@ Application launcher
 
 Disk image writer
 - [caligula](caligula.md)
+
+Archiving tool
+- [ark](ark.md)

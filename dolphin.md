@@ -17,9 +17,11 @@ Auto mount and trash can functionality should work out of the box.
 
 ## Accessories
 
-- kdegraphics-thumbnailers
+- kdegraphics-thumbnailers (PDF and PS thumbnails)
+- [konsole](konsole.md) (terminal panel)
+- [ark](ark.md) (compress menu)
 
-Install kdegraphics-thumbnailers for PDF and PS thumbnails:
+Install kdegraphics-thumbnailers:
 
 ```bash
 sudo pacman -S --needed kdegraphics-thumbnailers

@@ -44,6 +44,7 @@ Enter a number (default=1): 1
 - [gwenview](gwenview.md)
 - [plasmalogin](plasmalogin.md)
 - [kdeconnect](kdeconnect.md)
+- [ark](ark.md)
 
 Install discover for managing applications and plasma addons:
 
