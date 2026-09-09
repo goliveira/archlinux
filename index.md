@@ -37,7 +37,7 @@
 
 ### Installed above
 
-- base (minimal packages for a basic Arch Linux installation)
+- base (packages for a minimal Arch Linux installation)
 - linux (the Linux kernel and modules)
 - linux-firmare (firmware files for Linux)
 - nano (basic text editor)
