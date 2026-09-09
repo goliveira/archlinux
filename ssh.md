@@ -65,7 +65,7 @@ chmod 644 ~/.ssh/id_rsa.pub
 
 ## Accessories
 
-- [ssh-agent](ssh-agent.md)
+- [ssh-agent](ssh-agent.md) (ssh key agent)
 
 ---
 
