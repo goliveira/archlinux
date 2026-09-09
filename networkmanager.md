@@ -52,8 +52,8 @@ nmcli connection show
 
 ## Accessories
 
-- plasma-nm
-- network-manager-applet
+- plasma-nm (KDE network manager applet)
+- network-manager-applet (generic network manager applet)
 
 To provide integration with a desktop environment, install an applet.
 
