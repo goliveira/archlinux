@@ -49,9 +49,9 @@ tlmgr --usermode install \
 
 ## Accessories
 
-- texlive-binextra
-- texlive-langportuguese
-- imagemagick
+- texlive-binextra (auxiliary programs)
+- texlive-langportuguese (portuguese support)
+- imagemagick (image manipulation)
 
 For auxiliary programs (for example, `pdfjam`), install
 
