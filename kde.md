@@ -45,6 +45,7 @@ Enter a number (default=1): 1
 - [plasmalogin](plasmalogin.md)
 - [kdeconnect](kdeconnect.md)
 - [ark](ark.md)
+- [kompare](kompare.md)
 
 Install discover for managing applications and plasma addons:
 

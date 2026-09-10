@@ -121,6 +121,7 @@ KDE Plasma
 - [plasmalogin](plasmalogin.md)
 - [kdeconnect](kdeconnect.md)
 - ark
+- kompare
 
 Terminals
 - [konsole](konsole.md)
@@ -186,3 +187,6 @@ Disk image writer
 
 Archiving tool
 - [ark](ark.md)
+
+File differences tools
+- [kompare](kompare.md)
