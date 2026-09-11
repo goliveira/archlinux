@@ -104,6 +104,11 @@ Firewall manager
 Input sharing
 - [deskflow](deskflow.md)
 
+### System maintenance
+
+Package management
+- [reflector](reflector.md)
+
 ### More applications
 
 KDE Plasma
