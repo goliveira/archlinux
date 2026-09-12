@@ -53,7 +53,7 @@ sudo firewall-cmd --runtime-to-permanent
 
 ## Accessories
 
-- firewall-config (graphical interface)
+- firewall-config (graphical user interface)
 
 Install a graphical user interface
 
