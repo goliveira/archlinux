@@ -107,6 +107,7 @@ Input sharing
 ### System maintenance
 
 Package management
+- [pacman](pacman.md)
 - [reflector](reflector.md)
 
 ### More applications
