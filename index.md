@@ -131,6 +131,7 @@ KDE Plasma
 
 Terminals
 - [konsole](konsole.md)
+- [ghostty](ghostty.md)
 - [alacritty](alacritty.md)
 
 Terminal session
