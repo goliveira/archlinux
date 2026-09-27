@@ -37,6 +37,7 @@ Enter a number (default=1): 1
 - plasma-pa
 - kscreen
 - spectacle
+- plasma-browser-integration
 - [konsole](konsole.md)
 - [dolphin](dolphin.md)
 - [kate](kate.md)
@@ -81,6 +82,12 @@ Install KDE screenshot capture utility:
 
 ```bash
 sudo pacman -S --needed spectacle
+```
+
+Install KDE-firefox browser integration
+
+```bash
+sudo pacman -S --needed plasma-browser-integration
 ```
 
 ---

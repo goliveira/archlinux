@@ -36,6 +36,19 @@ firefox
 
 Sound playback (including unmuting) should work out of the box. To test sound, go to `www.youtube.com` and play some music.
 
+## Accessories
+
+- plasma-browser-integration (for KDE-firefox integration)
+
+Install KDE-firefox browser integration
+
+- <https://wiki.archlinux.org/title/Firefox#KDE_integration>
+- <https://addons.mozilla.org/firefox/addon/plasma-integration/>
+
+```bash
+sudo pacman -S --needed plasma-browser-integration
+```
+
 ---
 
 [Back to index](index.md)
