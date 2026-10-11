@@ -147,6 +147,9 @@ Text editors
 PDF viewer
 - [okular](okular.md)
 
+E-book viewer
+- [arianna](arianna.md)
+
 Image viewer
 - [gwenview](gwenview.md)
 
