@@ -43,6 +43,7 @@ Open some ports. For example:
 sudo firewall-cmd --add-service=http
 sudo firewall-cmd --add-service=mdns
 sudo firewall-cmd --add-service=syncthing
+sudo firewall-cmd --add-service=synergy
 ```
 
 Make runtime changes permanent:
